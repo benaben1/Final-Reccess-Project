@@ -1,0 +1,27 @@
+.dash{
+    background-color: rgb(199, 196, 196);
+    display: flex;
+    flex-direction: column;
+}
+
+.upper{
+    background-color: rgb(114, 141, 216);
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.activities{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.act-1, .act-2, .act-3, .act-4{
+    border: 1px solid black;
+    padding: 70px;
+    margin-left: 250px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: white;
+}
+.act-3, .act-4{
+    margin-top: 20px;
+}

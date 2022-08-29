@@ -1,0 +1,27 @@
+.p-f{
+    text-align: right;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+label, input{
+    padding: 0;
+}
+.witi-logo{
+    height: 170px;
+    
+}
+.log-head{
+    color: brown;
+    padding-top: 50px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.log-upper{
+    margin-left: 40px;
+    padding-inline-start: 20px;
+}
+details{
+    font-size: 15px;
+    color: green;
+}

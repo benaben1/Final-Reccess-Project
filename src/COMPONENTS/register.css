@@ -1,0 +1,98 @@
+.head-reg{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 50px;
+}
+
+input:hover, button:hover{
+    box-shadow: 5px 5px 5px 5px rosybrown;
+}
+small{
+    display: flex;
+    flex-direction: row;
+    color: red;
+    padding: 1px;
+}
+@media only screen and (max-width:800px){
+    form{
+        padding: 10px;
+        margin-left: 100px;
+        margin-right: 50px;
+        margin-top: 5px;
+        border-radius: 6%;
+        background-color: antiquewhite;
+        box-shadow: 5px 5px 5px 15px rosybrown;
+    }
+    input{
+        width: 50px;
+    }
+
+} 
+.gender{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+input, label, legend{
+    width: 250px;
+}
+input{
+    width: 500px;
+    height: 30px;
+}
+
+select{
+width: 250px;
+height: 30px;
+}
+.form-name{
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 5px;
+}
+.input-n{
+    width: 200px;
+}
+.name-tag{
+    font-size: 12px;
+}
+.gender-type{
+    padding-inline-start: 50px;
+}
+
+.btn{
+  width: 250px; 
+  height: 40px;
+  border-radius: 5px; 
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: rgb(11, 168, 50);
+  color: rgb(230, 239, 248);
+  margin-left: 550px;
+}
+
+.input-fields{
+    margin-left: 250px;
+}
+.file-upload{
+    padding: 20px;
+    margin-left: 120px;
+}
+
+.upload{
+    margin-left: 450px;
+}
+
+.acc-log{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
